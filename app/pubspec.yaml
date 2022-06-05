@@ -1,0 +1,34 @@
+name: portfolio
+description: Cesar Urrego Portfolio
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  design_system:
+    path: ../design_system
+
+  core:
+    path: ../core
+
+  cupertino_icons: ^1.0.2
+  phosphor_flutter: ^1.4.0
+  flutter_riverpod: ^1.0.3
+  flutter_secure_storage: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/sumer_icon.png
